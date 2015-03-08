@@ -9,6 +9,9 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
+  <header>
+    <a href="/">Duke City Blues</a>
+  </header>
   <div class="header">
     <img class="hero-image" src="<%= current_article.data.hero %>" />
   </div>
@@ -16,11 +19,27 @@
 
       <div class="container">
       <%= yield %>
+
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'dukecityblues';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
       <div class="footnotes">
-      <% if current_article.data.footnotes.length > 0 %>
+      <% if current_article.data.footnotes %>
+      <% counter = 1 %>
         <ol>
           <% current_article.data.footnotes.each do|n| %>
-            <li><%= n %></li>        
+            <li><span id="footnote<%= counter %>"></span><%= n %></li> 
+            <% counter += 1 %>       
           <% end %>
         </ol>  
       <%end %>

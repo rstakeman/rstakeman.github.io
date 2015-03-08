@@ -9,9 +9,30 @@ body {
     margin: 0px;
 	font-family: 'Lato', sans-serif;
 	color: #333;
-	background-color: #f2f2f2;
+	background-color: #fafafa;
 }
 
+header {
+	display: block;
+	background-color: #808285;
+	padding: 5px;
+}
+
+.jumbotron {
+    margin-bottom: -1px;
+	@include radial-gradient(#2e5c91, #4094c9);
+}
+
+header a {
+	font-size: 1em;
+	color: #fbfbfb;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+header a:hover {
+	color: #fbfbfb;
+}
 .header {
 	width: 100%;
 }
@@ -19,10 +40,25 @@ body {
 .header img {
 	width: 100%;
 }
+
 #main {
 	@include outer-container;
 }
 
+section.introduction {
+    @include span-columns(12);
+	background-color: #bbbdbf;
+    color: #050505;
+    margin-bottom: 60px;
+}
+
+.intro-wrapper {
+	@include outer-container;
+}
+.introduction p {
+	@include span-columns(10);
+	@include shift(1);
+}
 .container {
 	@include span-columns(8);
 	@include shift(2);
@@ -34,12 +70,56 @@ img {
     margin-right: auto;
 }
 
+.card {
+	@include span-columns(4);
+	@include omega(3n);
+	text-align: center;
+	min-height: 400px;
+	
+
+	img {
+		overflow: hidden;
+	}
+}
+
+.card-inner {
+    i {
+    	margin-bottom: 20px;
+    }
+	a {
+		margin-top: 10px;
+		color: #050505;
+		font-size: 1.2em;
+		font-weight: 600;
+	}
+
+	a:hover {
+		color: #050505;
+	}
+}
+
+img + sup {
+	float:right;
+}
 h1 {
 	font-size: 2.5em;
 	text-align: center;
 	margin-top: 40px;
 }
 
+table {
+	margin-bottom: 60px;
+}
+blockquote {
+	margin-left: 80px;
+	margin-right: 80px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    p {
+       line-height:1.2;
+    }
+}
 p {
 	line-height: 1.5;
 	font-size: 22px;
