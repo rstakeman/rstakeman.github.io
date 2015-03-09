@@ -2,7 +2,7 @@
 title: From the Roaring Twenties until the Depression
 date: 2015-03-08 15:53 UTC
 tags:
-hero: images/1923hero.png
+hero: /images/1923hero.png
 footnotes:
   - >
        Barbara Richardson, Black Pioneers, p 50-51. John Joseph Ellis, “Albuquerque’s Black Entrepreneurs 1880-1933,” paper submitted for American Urban History 362, October 11, 1976, p.28, based on interviews he conducted with Mrs. Venera Foy and Mr. Walter Macdonald; and Maisha Baton, Do Remember Me 2, p 26-27, quotes from Baton interviews with Mrs. Thelma MacDonald Jackson and Mrs. Exelona Clayton Bramlett.

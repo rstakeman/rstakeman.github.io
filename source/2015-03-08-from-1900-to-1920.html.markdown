@@ -2,7 +2,7 @@
 title: From 1900 to 1920
 date: 2015-03-08 04:01 UTC
 tags:
-hero: images/1913hero.png
+hero: /images/1913hero.png
 footnotes:
   - >
       In 1920 New Mexico’s black population is skewed by the presence of some 3600 African American troops in Columbus, NM.  They were protecting the border after Pancho Villa’s 1916 incursion into New Mexico. Their residence in New Mexico was anomalous and temporary so for the purposes of this analysis I have excluded them from my tally.  An interesting story about them is told in Horace Daniel Nash, “Community Building on the Border: The Role of the 24th Infantry Band at Columbus, New Mexico, 1916-1922,” in Bruce Glasrud, African Americans in New Mexico, ebook location 2538.
