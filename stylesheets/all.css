@@ -217,13 +217,13 @@ picture {
   margin: 0;
   max-width: 100%; }
 
-/* line 4, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
+/* line 4, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 9, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
+/* line 9, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
@@ -273,7 +273,7 @@ header a:hover {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  /* line 20, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 20, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
   #main::after {
     clear: both;
     content: "";
@@ -288,7 +288,7 @@ section.introduction {
   background-color: #bbbdbf;
   color: #050505;
   margin-bottom: 60px; }
-  /* line 87, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+  /* line 87, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
   section.introduction:last-child {
     margin-right: 0; }
 
@@ -297,7 +297,7 @@ section.introduction {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  /* line 20, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+  /* line 20, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
   .intro-wrapper::after {
     clear: both;
     content: "";
@@ -310,7 +310,7 @@ section.introduction {
   margin-right: 2.35765%;
   width: 82.94039%;
   margin-left: 8.5298%; }
-  /* line 87, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+  /* line 87, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
   .introduction p:last-child {
     margin-right: 0; }
 
@@ -321,7 +321,7 @@ section.introduction {
   margin-right: 2.35765%;
   width: 65.88078%;
   margin-left: 17.05961%; }
-  /* line 87, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+  /* line 87, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
   .container:last-child {
     margin-right: 0; }
 
@@ -339,13 +339,13 @@ img {
   width: 31.76157%;
   text-align: center;
   min-height: 400px; }
-  /* line 87, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+  /* line 87, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
   .card:last-child {
     margin-right: 0; }
-  /* line 78, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+  /* line 78, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
   .card:nth-child(3n) {
     margin-right: 0; }
-  /* line 83, /Users/Jstakeman/.rvm/gems/ruby-2.0.0-p195/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+  /* line 83, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
   .card:nth-child(3n+1) {
     clear: left; }
   /* line 80, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
