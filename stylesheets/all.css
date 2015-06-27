@@ -237,38 +237,43 @@ body {
   background-color: #fafafa; }
 
 /* line 15, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+h3 {
+  text-align: center;
+  margin-top: 10px; }
+
+/* line 20, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 header {
   display: block;
   background-color: #808285;
   padding: 5px; }
 
-/* line 21, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 26, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .jumbotron {
   margin-bottom: -1px;
   background-color: #2e5c91;
   background-image: -webkit-radial-gradient(#2e5c91, #4094c9);
   background-image: radial-gradient(  #2e5c91, #4094c9); }
 
-/* line 26, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 31, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 header a {
   font-size: 1em;
   color: #fbfbfb;
   font-weight: 600;
   margin-left: 10px; }
 
-/* line 33, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 38, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 header a:hover {
   color: #fbfbfb; }
 
-/* line 36, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 41, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .header {
   width: 100%; }
 
-/* line 40, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 45, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .header img {
   width: 100%; }
 
-/* line 44, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 49, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 #main {
   max-width: 68em;
   margin-left: auto;
@@ -279,7 +284,7 @@ header a:hover {
     content: "";
     display: table; }
 
-/* line 48, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 53, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 section.introduction {
   float: left;
   display: block;
@@ -292,7 +297,7 @@ section.introduction {
   section.introduction:last-child {
     margin-right: 0; }
 
-/* line 55, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 60, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .intro-wrapper {
   max-width: 68em;
   margin-left: auto;
@@ -303,7 +308,7 @@ section.introduction {
     content: "";
     display: table; }
 
-/* line 58, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 63, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .introduction p {
   float: left;
   display: block;
@@ -314,7 +319,7 @@ section.introduction {
   .introduction p:last-child {
     margin-right: 0; }
 
-/* line 62, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 67, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .container {
   float: left;
   display: block;
@@ -325,13 +330,13 @@ section.introduction {
   .container:last-child {
     margin-right: 0; }
 
-/* line 67, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 72, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 img {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 73, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 78, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .card {
   float: left;
   display: block;
@@ -348,58 +353,58 @@ img {
   /* line 83, /Users/Jstakeman/.rvm/gems/ruby-2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
   .card:nth-child(3n+1) {
     clear: left; }
-  /* line 80, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+  /* line 85, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
   .card img {
     overflow: hidden; }
 
-/* line 86, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 91, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .card-inner i {
   margin-bottom: 20px; }
-/* line 89, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 94, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .card-inner a {
   margin-top: 10px;
   color: #050505;
   font-size: 1.2em;
   font-weight: 600; }
-/* line 96, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 101, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 .card-inner a:hover {
   color: #050505; }
 
-/* line 101, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 106, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 img + sup {
   float: right; }
 
-/* line 104, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 109, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 h1 {
   font-size: 2.5em;
   text-align: center;
   margin-top: 40px; }
 
-/* line 110, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 115, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 table {
   margin-bottom: 60px; }
 
-/* line 113, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 118, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 blockquote {
   margin-left: 80px;
   margin-right: 80px;
   font-weight: 600;
   line-height: 1.2; }
-  /* line 119, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+  /* line 124, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
   blockquote p {
     line-height: 1.2; }
 
-/* line 123, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 128, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 p {
   line-height: 1.5;
   font-size: 22px;
   margin-bottom: 40px;
   margin-top: 20px; }
 
-/* line 130, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 135, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 ol {
   list-style-type: decimal; }
 
-/* line 133, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
+/* line 138, /Users/Jstakeman/Dropbox/dukeCityBlues/rstakeman.github.io/source/stylesheets/all.css.scss */
 sup {
   font-size: .5em; }
